@@ -1,0 +1,18 @@
+extract_invoice_data:
+  description: >
+    From the OCR text below, extract the following fields:
+    - Account Number
+    - HAWB Number
+    - Amount in PHP
+    - Due Date
+    - Invoice Number
+
+    OCR Text:
+    {ocr_text}
+  expected_output: >
+    A JSON object with the following keys:
+    - account_number
+    - hawb_number
+    - amount_php
+    - due_date
+    - invoice_number
