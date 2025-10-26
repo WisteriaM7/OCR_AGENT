@@ -21,4 +21,3 @@ def run():
     inputs = {}  # You can pass named input keys here if any task uses placeholders
 
     crew.crew().kickoff(inputs=inputs)
-
